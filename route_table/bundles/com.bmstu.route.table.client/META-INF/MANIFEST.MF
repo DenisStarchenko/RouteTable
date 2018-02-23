@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Client
+Bundle-SymbolicName: com.bmstu.route.table.client
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.bmstu.route.table;version="[1.0.0,2.0.0)",
+ com.bmstu.route.table.model;version="[1.0.0,2.0.0)"
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/com.bmstu.route.table.client.AddRecordListener.xml,
+ OSGI-INF/com.bmstu.route.table.client.DeleteRecordListener.xml

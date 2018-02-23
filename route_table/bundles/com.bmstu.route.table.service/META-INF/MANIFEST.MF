@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Service
+Bundle-SymbolicName: com.bmstu.route.table.service
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.bmstu.route.table;version="[1.0.0,2.0.0)",
+ com.bmstu.route.table.model;version="[1.0.0,2.0.0)"
+Service-Component: OSGI-INF/com.bmstu.route.table.service.RouteTableService.xml
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Table
+Bundle-SymbolicName: com.bmstu.route.table
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: BMSTU
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.bmstu.route.table;version="1.0.0",
+ com.bmstu.route.table.model;version="1.0.0"
